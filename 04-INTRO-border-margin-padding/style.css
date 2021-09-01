@@ -1,0 +1,25 @@
+body {
+    background-color: palegreen;
+    margin: 0;
+}
+
+div{
+    background-color: plum;
+    /* arriba,derecha,abajo,izquierda */
+    margin: 4% 25% 3% 10%;
+    padding: 0% 2%;
+    /* border radius si lo ponemos con pixeles */
+    border-radius: 10px;
+}
+
+div p{
+    color: rosybrown;
+}
+
+p{
+    color: royalblue;
+}
+/* el orden en css no afecta a los estilos, excepto que tengan el mismo valor de especificidad */
+.lorem{
+    color: yellowgreen;
+}

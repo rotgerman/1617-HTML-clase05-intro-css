@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap');
+
+h1, p{
+    color: peru;
+    font-family: 'Architects Daughter', cursive;
+}
+
+
+h1{
+    font-weight: 100;
+    font-size: 2em;
+}
+
+p{
+    color: plum;
+    font-weight: 900;
+    font-size: 3em;
+}
+
+.pixel{
+    font-size: 48px;
+}

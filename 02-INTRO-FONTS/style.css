@@ -1,0 +1,17 @@
+/* podemos poner el mismo estilo a varias cosas distintas, separando con una coma*/
+
+h1, p{
+    color: peru;
+    font-family: 'Allison', cursive;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+
+/* font-weigth no es lo mismo que tamano, es el peso, no el tamano, no lleva medidas */
+h1{
+    font-weight: 100;
+}
+/* cuando tienen el mismo peso y misma propiedad elige el ultimo valor */
+p{
+    color: plum;
+    font-weight: 900;
+}
